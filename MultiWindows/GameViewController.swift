@@ -45,8 +45,9 @@ class GameViewController: NSViewController {
         ship.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 1)))
         
         // retrieve the SCNView
+        //let scnView = self.view as! SCNView
+        self.view = SCNView(frame: NSRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: 256, height: 256)))
         let scnView = self.view as! SCNView
-        
         // set the scene to the view
         scnView.scene = scene
         

@@ -10,8 +10,15 @@ import Cocoa
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
     
+    lazy var mainWndCtrl = MainWindowController()
+    lazy var otherWndCtrl = CodeWindowController()
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        mainWndCtrl.showWindow(nil)
+        otherWndCtrl.showWindow(nil)
     }
+ 
+  
+    
     
 }

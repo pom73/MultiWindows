@@ -15,6 +15,10 @@
 		092C46FD2C52B79A00ADDFFB /* MultiWindowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C46FC2C52B79A00ADDFFB /* MultiWindowsTests.swift */; };
 		092C47072C52B79A00ADDFFB /* MultiWindowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C47062C52B79A00ADDFFB /* MultiWindowsUITests.swift */; };
 		092C47092C52B79A00ADDFFB /* MultiWindowsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C47082C52B79A00ADDFFB /* MultiWindowsUITestsLaunchTests.swift */; };
+		092C47162C53FDD200ADDFFB /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C47152C53FDD200ADDFFB /* OtherViewController.swift */; };
+		092C47212C540AA900ADDFFB /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C471F2C540AA900ADDFFB /* MainWindowController.swift */; };
+		092C47222C540AA900ADDFFB /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092C47202C540AA900ADDFFB /* MainWindowController.xib */; };
+		092C47242C54BE6700ADDFFB /* CodeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C47232C54BE6700ADDFFB /* CodeWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		092C47022C52B79A00ADDFFB /* MultiWindowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiWindowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		092C47062C52B79A00ADDFFB /* MultiWindowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiWindowsUITests.swift; sourceTree = "<group>"; };
 		092C47082C52B79A00ADDFFB /* MultiWindowsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiWindowsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		092C47152C53FDD200ADDFFB /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		092C471F2C540AA900ADDFFB /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		092C47202C540AA900ADDFFB /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		092C47232C54BE6700ADDFFB /* CodeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				092C46E82C52B79900ADDFFB /* AppDelegate.swift */,
 				092C46EA2C52B79900ADDFFB /* GameViewController.swift */,
+				092C47152C53FDD200ADDFFB /* OtherViewController.swift */,
 				092C46EC2C52B79900ADDFFB /* art.scnassets */,
 				092C46EE2C52B79A00ADDFFB /* Assets.xcassets */,
 				092C46F02C52B79A00ADDFFB /* Main.storyboard */,
 				092C46F32C52B79A00ADDFFB /* MultiWindows.entitlements */,
+				092C471F2C540AA900ADDFFB /* MainWindowController.swift */,
+				092C47202C540AA900ADDFFB /* MainWindowController.xib */,
+				092C47232C54BE6700ADDFFB /* CodeWindowController.swift */,
 			);
 			path = MultiWindows;
 			sourceTree = "<group>";
@@ -230,6 +242,7 @@
 			files = (
 				092C46EF2C52B79A00ADDFFB /* Assets.xcassets in Resources */,
 				092C46F22C52B79A00ADDFFB /* Base in Resources */,
+				092C47222C540AA900ADDFFB /* MainWindowController.xib in Resources */,
 				092C46ED2C52B79900ADDFFB /* art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				092C46EB2C52B79900ADDFFB /* GameViewController.swift in Sources */,
+				092C47162C53FDD200ADDFFB /* OtherViewController.swift in Sources */,
+				092C47212C540AA900ADDFFB /* MainWindowController.swift in Sources */,
+				092C47242C54BE6700ADDFFB /* CodeWindowController.swift in Sources */,
 				092C46E92C52B79900ADDFFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
